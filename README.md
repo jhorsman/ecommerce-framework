@@ -128,7 +128,7 @@ The .NET version of the E-Commerce DXA modules requires the OData micro service.
 6. Configure E-Commerce micro service in Web.config of your site:
 
    ``` 
-    !-- E-Commerce Framework -->
+    <!-- E-Commerce Framework -->
     <add key="ecommerce-service-uri" value="http://localhost:8097/ecommerce.svc"/>
    ```
 
