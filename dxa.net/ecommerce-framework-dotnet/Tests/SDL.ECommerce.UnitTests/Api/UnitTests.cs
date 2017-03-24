@@ -4,7 +4,7 @@ using Xunit;
 
 using Sdl.ECommerce.Api;
 
-namespace SDL.ECommerce.UnitTests.Api
+namespace Sdl.ECommerce.UnitTests.Api
 {
     public class UnitTests
     {

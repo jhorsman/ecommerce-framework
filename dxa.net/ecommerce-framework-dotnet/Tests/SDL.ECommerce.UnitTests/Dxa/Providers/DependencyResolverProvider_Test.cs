@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.UnitTests.Dxa.Providers
+﻿namespace Sdl.ECommerce.UnitTests.Dxa.Providers
 {
     using System;
 

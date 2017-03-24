@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.UnitTests
+﻿namespace Sdl.ECommerce.UnitTests
 {
     using System;
 

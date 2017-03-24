@@ -6,8 +6,8 @@
     <ProjectGuid>{5EB69A43-7467-4A7A-8CFE-D23274B56B07}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SDL.ECommerce.IntegrationTests</RootNamespace>
-    <AssemblyName>SDL.ECommerce.IntegrationTests</AssemblyName>
+    <RootNamespace>Sdl.ECommerce.IntegrationTests</RootNamespace>
+    <AssemblyName>Sdl.ECommerce.IntegrationTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -55,13 +55,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SDL.ECommerce.Api\SDL.ECommerce.Api.csproj">
+    <ProjectReference Include="..\..\SDL.ECommerce.Api\Sdl.ECommerce.Api.csproj">
       <Project>{1030D0F7-9334-4864-B495-540E3AD7928C}</Project>
-      <Name>SDL.ECommerce.Api</Name>
+      <Name>Sdl.ECommerce.Api</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SDL.ECommerce.OData\SDL.ECommerce.OData.csproj">
+    <ProjectReference Include="..\..\SDL.ECommerce.OData\Sdl.ECommerce.OData.csproj">
       <Project>{f5434b12-5f20-48df-8b17-a6c2a1345ba9}</Project>
-      <Name>SDL.ECommerce.OData</Name>
+      <Name>Sdl.ECommerce.OData</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

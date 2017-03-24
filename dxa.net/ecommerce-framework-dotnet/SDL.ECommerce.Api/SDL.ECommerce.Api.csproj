@@ -7,8 +7,8 @@
     <ProjectGuid>{1030D0F7-9334-4864-B495-540E3AD7928C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SDL.ECommerce.Api</RootNamespace>
-    <AssemblyName>SDL.ECommerce.Api</AssemblyName>
+    <RootNamespace>Sdl.ECommerce.Api</RootNamespace>
+    <AssemblyName>Sdl.ECommerce.Api</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

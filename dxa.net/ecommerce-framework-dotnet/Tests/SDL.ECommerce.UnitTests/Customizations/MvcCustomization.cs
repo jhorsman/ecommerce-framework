@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.UnitTests.Customizations
+﻿namespace Sdl.ECommerce.UnitTests.Customizations
 {
     using System.Web.Mvc;
 

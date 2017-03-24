@@ -8,7 +8,7 @@ using Sdl.ECommerce.Api;
 using Sdl.ECommerce.Api.Model;
 using Sdl.ECommerce.OData;
 
-namespace SDL.ECommerce.IntegrationTests.OData
+namespace Sdl.ECommerce.IntegrationTests.OData
 {
     /// <summary>
     /// OData Client integration tests. The tests is based on an OData micro service instance having

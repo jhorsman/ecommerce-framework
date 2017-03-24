@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.UnitTests.Dxa.Factories
+﻿namespace Sdl.ECommerce.UnitTests.Dxa.Factories
 {
     using System;
 

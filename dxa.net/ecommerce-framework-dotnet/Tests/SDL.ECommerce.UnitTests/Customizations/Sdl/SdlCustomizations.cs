@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.UnitTests.Customizations.Sdl
+﻿namespace Sdl.ECommerce.UnitTests.Customizations.Sdl
 {
     using Ploeh.AutoFixture;
 

@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.UnitTests.Dxa.Controllers
+﻿namespace Sdl.ECommerce.UnitTests.Dxa.Controllers
 {
     using System.Collections;
     using System.Collections.Generic;

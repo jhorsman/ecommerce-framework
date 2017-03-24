@@ -6,8 +6,8 @@
     <ProjectGuid>{2819AEB8-2277-4E43-96B9-A20A3BFEE941}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SDL.ECommerce.UnitTests</RootNamespace>
-    <AssemblyName>SDL.ECommerce.UnitTests</AssemblyName>
+    <RootNamespace>Sdl.ECommerce.UnitTests</RootNamespace>
+    <AssemblyName>Sdl.ECommerce.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -201,13 +201,13 @@
     <Compile Include="Url.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SDL.ECommerce.Api\SDL.ECommerce.Api.csproj">
+    <ProjectReference Include="..\..\SDL.ECommerce.Api\Sdl.ECommerce.Api.csproj">
       <Project>{1030d0f7-9334-4864-b495-540e3ad7928c}</Project>
-      <Name>SDL.ECommerce.Api</Name>
+      <Name>Sdl.ECommerce.Api</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SDL.ECommerce.DXA\SDL.ECommerce.DXA.csproj">
+    <ProjectReference Include="..\..\SDL.ECommerce.DXA\Sdl.ECommerce.Dxa.csproj">
       <Project>{1d5a79d3-8870-410d-99fd-5d54601e19b5}</Project>
-      <Name>SDL.ECommerce.DXA</Name>
+      <Name>Sdl.ECommerce.Dxa</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

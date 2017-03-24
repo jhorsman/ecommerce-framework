@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.UnitTests.Dxa.Servants
+﻿namespace Sdl.ECommerce.UnitTests.Dxa.Servants
 {
     using System.Collections.Generic;
     using System.Linq;
