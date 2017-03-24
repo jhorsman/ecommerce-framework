@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL.ECommerce.OData", "SDL.ECommerce.OData\SDL.ECommerce.OData.csproj", "{F5434B12-5F20-48DF-8B17-A6C2A1345BA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.ECommerce.OData", "Sdl.ECommerce.OData\Sdl.ECommerce.OData.csproj", "{F5434B12-5F20-48DF-8B17-A6C2A1345BA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL.ECommerce.Api", "SDL.ECommerce.Api\SDL.ECommerce.Api.csproj", "{1030D0F7-9334-4864-B495-540E3AD7928C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.ECommerce.Api", "Sdl.ECommerce.Api\Sdl.ECommerce.Api.csproj", "{1030D0F7-9334-4864-B495-540E3AD7928C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL.ECommerce.DXA", "SDL.ECommerce.DXA\SDL.ECommerce.DXA.csproj", "{1D5A79D3-8870-410D-99FD-5D54601E19B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.ECommerce.Dxa", "Sdl.ECommerce.DXA\Sdl.ECommerce.Dxa.csproj", "{1D5A79D3-8870-410D-99FD-5D54601E19B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL.DXA.Modules.Navigation", "SDL.DXA.Modules.Navigation\SDL.DXA.Modules.Navigation.csproj", "{B343E828-A29F-4C6A-B9E4-B510719E77F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.Dxa.Modules.Navigation", "Sdl.Dxa.Modules.Navigation\Sdl.Dxa.Modules.Navigation.csproj", "{B343E828-A29F-4C6A-B9E4-B510719E77F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL.ECommerce.DXA.Example.Views", "SDL.ECommerce.DXA.Example.Views\SDL.ECommerce.DXA.Example.Views.csproj", "{D4ACD1A5-74BE-4375-A4CC-14529FFAB92D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.ECommerce.Dxa.Example.Views", "Sdl.ECommerce.Dxa.Example.Views\Sdl.ECommerce.Dxa.Example.Views.csproj", "{D4ACD1A5-74BE-4375-A4CC-14529FFAB92D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{11F3867C-0A6E-401C-BDE1-6FAD162D609F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL.ECommerce.UnitTests", "Tests\SDL.ECommerce.UnitTests\SDL.ECommerce.UnitTests.csproj", "{2819AEB8-2277-4E43-96B9-A20A3BFEE941}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.ECommerce.UnitTests", "Tests\Sdl.ECommerce.UnitTests\Sdl.ECommerce.UnitTests.csproj", "{2819AEB8-2277-4E43-96B9-A20A3BFEE941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL.ECommerce.IntegrationTests", "Tests\SDL.ECommerce.IntegrationTests\SDL.ECommerce.IntegrationTests.csproj", "{5EB69A43-7467-4A7A-8CFE-D23274B56B07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.ECommerce.IntegrationTests", "Tests\Sdl.ECommerce.IntegrationTests\Sdl.ECommerce.IntegrationTests.csproj", "{5EB69A43-7467-4A7A-8CFE-D23274B56B07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
