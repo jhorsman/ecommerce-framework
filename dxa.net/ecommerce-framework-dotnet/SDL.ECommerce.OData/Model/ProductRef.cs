@@ -1,6 +1,6 @@
-﻿using SDL.ECommerce.Api;
+﻿using Sdl.ECommerce.Api;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     public partial class ProductRef : IProductRef
     {

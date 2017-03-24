@@ -1,9 +1,9 @@
 ﻿using Sdl.Web.Common.Models;
-using SDL.ECommerce.Api.Model;
+using Sdl.ECommerce.Api.Model;
 
 using System.Collections.Generic;
 
-namespace SDL.ECommerce.DXA
+namespace Sdl.ECommerce.Dxa
 {
     /// <summary>
     /// Search Feedback Widget

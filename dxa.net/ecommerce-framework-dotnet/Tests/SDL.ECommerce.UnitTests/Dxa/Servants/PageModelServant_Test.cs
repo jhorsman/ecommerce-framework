@@ -16,12 +16,12 @@
     using Sdl.Web.Common.Interfaces;
     using Sdl.Web.Common.Models;
 
-    using SDL.ECommerce.Api.Model;
-    using SDL.ECommerce.DXA.Servants;
+    using Sdl.ECommerce.Api.Model;
+    using Sdl.ECommerce.Dxa.Servants;
 
     using Xunit;
 
-    using Query = SDL.ECommerce.Api.Model.Query;
+    using Query = Sdl.ECommerce.Api.Model.Query;
 
     public class PageModelServant_Test : Test<PageModelServant>
     {

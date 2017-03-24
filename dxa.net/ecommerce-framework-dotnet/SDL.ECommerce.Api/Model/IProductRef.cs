@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.Api
+﻿namespace Sdl.ECommerce.Api
 {
     /// <summary>
     /// Product Reference interface

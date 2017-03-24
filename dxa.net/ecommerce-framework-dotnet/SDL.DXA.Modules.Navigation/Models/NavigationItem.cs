@@ -1,6 +1,6 @@
 ﻿using Sdl.Web.Common.Models;
 
-namespace SDL.DXA.Modules.Navigation.Models
+namespace Sdl.Dxa.Modules.Navigation.Models
 {
     /// <summary>
     /// Navigation Item

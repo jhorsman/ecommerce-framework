@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SDL.ECommerce.Api.Service
+namespace Sdl.ECommerce.Api.Service
 {
     /// <summary>
     /// E-Commerce Product Detail Service

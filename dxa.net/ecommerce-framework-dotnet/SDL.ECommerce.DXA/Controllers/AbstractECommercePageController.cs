@@ -5,19 +5,24 @@ using Sdl.Web.Mvc.Configuration;
 using Sdl.Web.Mvc.Controllers;
 using Sdl.Web.Mvc.Formats;
 
-using SDL.ECommerce.Api;
-using SDL.ECommerce.Api.Model;
+using Sdl.ECommerce.Api;
+using Sdl.ECommerce.Api.Model;
 
 using System;
 using System.Collections.Generic;
 using System.Web;
 using System.Web.Mvc;
 
-using SDL.ECommerce.DXA.Factories;
-using SDL.ECommerce.DXA.Servants;
+using Sdl.ECommerce.Dxa.Factories;
+using Sdl.ECommerce.Dxa.Servants;
 
-namespace SDL.ECommerce.DXA.Controllers
+namespace Sdl.ECommerce.Dxa.Controllers
 {
+    using Sdl.ECommerce.Dxa.Factories;
+    using Sdl.ECommerce.Dxa.Servants;
+
+    using Query = Sdl.ECommerce.Api.Model.Query;
+
     /// <summary>
     /// Abstract base class for all E-Commerce page controllers
     /// </summary>
@@ -86,7 +91,7 @@ namespace SDL.ECommerce.DXA.Controllers
         /// </summary>
         /// <param name="templatePage"></param>
         /// <param name="query"></param>
-        protected void GetQueryContributions(PageModel templatePage, Api.Model.Query query)
+        protected void GetQueryContributions(PageModel templatePage, Query query)
         {
             foreach  (var region in templatePage.Regions)
             {

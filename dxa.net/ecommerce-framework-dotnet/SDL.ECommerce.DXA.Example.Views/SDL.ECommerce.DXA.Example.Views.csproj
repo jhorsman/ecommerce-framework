@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SDL.ECommerce.DXA.Example.Views</RootNamespace>
-    <AssemblyName>SDL.ECommerce.DXA.Example.Views</AssemblyName>
+    <RootNamespace>Sdl.ECommerce.Dxa.Example.Views</RootNamespace>
+    <AssemblyName>Sdl.ECommerce.Dxa.Example.Views</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -173,13 +173,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SDL.ECommerce.Api\SDL.ECommerce.Api.csproj">
+    <ProjectReference Include="..\SDL.ECommerce.Api\Sdl.ECommerce.Api.csproj">
       <Project>{1030d0f7-9334-4864-b495-540e3ad7928c}</Project>
-      <Name>SDL.ECommerce.Api</Name>
+      <Name>Sdl.ECommerce.Api</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SDL.ECommerce.DXA\SDL.ECommerce.DXA.csproj">
+    <ProjectReference Include="..\SDL.ECommerce.DXA\Sdl.ECommerce.Dxa.csproj">
       <Project>{1d5a79d3-8870-410d-99fd-5d54601e19b5}</Project>
-      <Name>SDL.ECommerce.DXA</Name>
+      <Name>Sdl.ECommerce.Dxa</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

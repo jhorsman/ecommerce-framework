@@ -1,10 +1,10 @@
 ﻿using Sdl.Web.Delivery.DiscoveryService;
 using Sdl.Web.Delivery.Service;
-using SDL.ECommerce.Api;
-using SDL.ECommerce.Api.Service;
+using Sdl.ECommerce.Api;
+using Sdl.ECommerce.Api.Service;
 using System;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     // Temporary solution for the client config
     // TODO: Use the standard approach

@@ -4,7 +4,7 @@
 
     using Ploeh.AutoFixture;
 
-    using SDL.ECommerce.DXA.Providers;
+    using Sdl.ECommerce.Dxa.Providers;
 
     using Xunit;
 

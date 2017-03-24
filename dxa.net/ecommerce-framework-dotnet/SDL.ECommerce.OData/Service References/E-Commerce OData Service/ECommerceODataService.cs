@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 // Generation date: 3/6/2017 8:40:00 AM
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     /// <summary>
     /// There are no comments for SDLECommerce in the schema.
@@ -458,7 +458,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("parent")]
-        public global::SDL.ECommerce.OData.CategorySingle Parent
+        public global::Sdl.ECommerce.OData.CategorySingle Parent
         {
             get
             {
@@ -468,19 +468,19 @@ namespace SDL.ECommerce.OData
                 }
                 if ((this._Parent == null))
                 {
-                    this._Parent = new global::SDL.ECommerce.OData.CategorySingle(this.Context, GetPath("parent"));
+                    this._Parent = new global::Sdl.ECommerce.OData.CategorySingle(this.Context, GetPath("parent"));
                 }
                 return this._Parent;
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.CategorySingle _Parent;
+        private global::Sdl.ECommerce.OData.CategorySingle _Parent;
         /// <summary>
         /// There are no comments for Categories in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("categories")]
-        public global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.Category> Categories
+        public global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.Category> Categories
         {
             get
             {
@@ -490,13 +490,13 @@ namespace SDL.ECommerce.OData
                 }
                 if ((this._Categories == null))
                 {
-                    this._Categories = Context.CreateQuery<global::SDL.ECommerce.OData.Category>(GetPath("categories"));
+                    this._Categories = Context.CreateQuery<global::Sdl.ECommerce.OData.Category>(GetPath("categories"));
                 }
                 return this._Categories;
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.Category> _Categories;
+        private global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.Category> _Categories;
     }
     /// <summary>
     /// There are no comments for Category in the schema.
@@ -636,7 +636,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("parent")]
-        public global::SDL.ECommerce.OData.Category Parent
+        public global::Sdl.ECommerce.OData.Category Parent
         {
             get
             {
@@ -650,15 +650,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.Category _Parent;
-        partial void OnParentChanging(global::SDL.ECommerce.OData.Category value);
+        private global::Sdl.ECommerce.OData.Category _Parent;
+        partial void OnParentChanging(global::Sdl.ECommerce.OData.Category value);
         partial void OnParentChanged();
         /// <summary>
         /// There are no comments for Property Categories in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("categories")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Category> Categories
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Category> Categories
         {
             get
             {
@@ -672,8 +672,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Category> _Categories = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Category>();
-        partial void OnCategoriesChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Category> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Category> _Categories = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Category>();
+        partial void OnCategoriesChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Category> value);
         partial void OnCategoriesChanged();
     }
     /// <summary>
@@ -826,7 +826,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("price")]
-        public global::SDL.ECommerce.OData.ProductPrice Price
+        public global::Sdl.ECommerce.OData.ProductPrice Price
         {
             get
             {
@@ -840,8 +840,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.ProductPrice _Price;
-        partial void OnPriceChanging(global::SDL.ECommerce.OData.ProductPrice value);
+        private global::Sdl.ECommerce.OData.ProductPrice _Price;
+        partial void OnPriceChanging(global::Sdl.ECommerce.OData.ProductPrice value);
         partial void OnPriceChanged();
         /// <summary>
         /// There are no comments for Property ThumbnailUrl in the schema.
@@ -892,7 +892,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("attributes")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductAttribute> Attributes
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductAttribute> Attributes
         {
             get
             {
@@ -906,15 +906,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductAttribute> _Attributes = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductAttribute>();
-        partial void OnAttributesChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductAttribute> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductAttribute> _Attributes = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductAttribute>();
+        partial void OnAttributesChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductAttribute> value);
         partial void OnAttributesChanged();
         /// <summary>
         /// There are no comments for Property Categories in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("categories")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.CategorySummary> Categories
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.CategorySummary> Categories
         {
             get
             {
@@ -928,15 +928,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.CategorySummary> _Categories = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.CategorySummary>();
-        partial void OnCategoriesChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.CategorySummary> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.CategorySummary> _Categories = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.CategorySummary>();
+        partial void OnCategoriesChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.CategorySummary> value);
         partial void OnCategoriesChanged();
         /// <summary>
         /// There are no comments for Property Promotions in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("promotions")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Promotion> Promotions
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Promotion> Promotions
         {
             get
             {
@@ -950,15 +950,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Promotion> _Promotions = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Promotion>();
-        partial void OnPromotionsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Promotion> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Promotion> _Promotions = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Promotion>();
+        partial void OnPromotionsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Promotion> value);
         partial void OnPromotionsChanged();
         /// <summary>
         /// There are no comments for Property Breadcrumbs in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("breadcrumbs")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Breadcrumb> Breadcrumbs
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Breadcrumb> Breadcrumbs
         {
             get
             {
@@ -972,15 +972,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Breadcrumb> _Breadcrumbs = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Breadcrumb>();
-        partial void OnBreadcrumbsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Breadcrumb> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Breadcrumb> _Breadcrumbs = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Breadcrumb>();
+        partial void OnBreadcrumbsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Breadcrumb> value);
         partial void OnBreadcrumbsChanged();
         /// <summary>
         /// There are no comments for Property VariantAttributes in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("variantAttributes")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttribute> VariantAttributes
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttribute> VariantAttributes
         {
             get
             {
@@ -994,15 +994,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttribute> _VariantAttributes = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttribute>();
-        partial void OnVariantAttributesChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttribute> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttribute> _VariantAttributes = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttribute>();
+        partial void OnVariantAttributesChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttribute> value);
         partial void OnVariantAttributesChanged();
         /// <summary>
         /// There are no comments for Property Variants in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("variants")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariant> Variants
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariant> Variants
         {
             get
             {
@@ -1016,15 +1016,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariant> _Variants = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariant>();
-        partial void OnVariantsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariant> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariant> _Variants = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariant>();
+        partial void OnVariantsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariant> value);
         partial void OnVariantsChanged();
         /// <summary>
         /// There are no comments for Property VariantAttributeTypes in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("variantAttributeTypes")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttributeType> VariantAttributeTypes
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttributeType> VariantAttributeTypes
         {
             get
             {
@@ -1038,8 +1038,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttributeType> _VariantAttributeTypes = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttributeType>();
-        partial void OnVariantAttributeTypesChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttributeType> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttributeType> _VariantAttributeTypes = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttributeType>();
+        partial void OnVariantAttributeTypesChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttributeType> value);
         partial void OnVariantAttributeTypesChanged();
         /// <summary>
         /// There are no comments for Property VariantLinkType in the schema.
@@ -1148,7 +1148,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("items")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.CartItem> Items
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.CartItem> Items
         {
             get
             {
@@ -1162,8 +1162,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.CartItem> _Items = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.CartItem>();
-        partial void OnItemsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.CartItem> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.CartItem> _Items = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.CartItem>();
+        partial void OnItemsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.CartItem> value);
         partial void OnItemsChanged();
         /// <summary>
         /// There are no comments for Property Count in the schema.
@@ -1192,7 +1192,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("totalPrice")]
-        public global::SDL.ECommerce.OData.ProductPrice TotalPrice
+        public global::Sdl.ECommerce.OData.ProductPrice TotalPrice
         {
             get
             {
@@ -1206,8 +1206,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.ProductPrice _TotalPrice;
-        partial void OnTotalPriceChanging(global::SDL.ECommerce.OData.ProductPrice value);
+        private global::Sdl.ECommerce.OData.ProductPrice _TotalPrice;
+        partial void OnTotalPriceChanging(global::Sdl.ECommerce.OData.ProductPrice value);
         partial void OnTotalPriceChanged();
     }
     /// <summary>
@@ -1360,7 +1360,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("redirectLocation")]
-        public global::SDL.ECommerce.OData.Location RedirectLocation
+        public global::Sdl.ECommerce.OData.Location RedirectLocation
         {
             get
             {
@@ -1374,15 +1374,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.Location _RedirectLocation;
-        partial void OnRedirectLocationChanging(global::SDL.ECommerce.OData.Location value);
+        private global::Sdl.ECommerce.OData.Location _RedirectLocation;
+        partial void OnRedirectLocationChanging(global::Sdl.ECommerce.OData.Location value);
         partial void OnRedirectLocationChanged();
         /// <summary>
         /// There are no comments for Property QuerySuggestions in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("querySuggestions")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.QuerySuggestion> QuerySuggestions
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.QuerySuggestion> QuerySuggestions
         {
             get
             {
@@ -1396,15 +1396,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.QuerySuggestion> _QuerySuggestions = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.QuerySuggestion>();
-        partial void OnQuerySuggestionsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.QuerySuggestion> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.QuerySuggestion> _QuerySuggestions = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.QuerySuggestion>();
+        partial void OnQuerySuggestionsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.QuerySuggestion> value);
         partial void OnQuerySuggestionsChanged();
         /// <summary>
         /// There are no comments for Property FacetGroups in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("facetGroups")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.FacetGroup> FacetGroups
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.FacetGroup> FacetGroups
         {
             get
             {
@@ -1418,15 +1418,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.FacetGroup> _FacetGroups = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.FacetGroup>();
-        partial void OnFacetGroupsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.FacetGroup> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.FacetGroup> _FacetGroups = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.FacetGroup>();
+        partial void OnFacetGroupsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.FacetGroup> value);
         partial void OnFacetGroupsChanged();
         /// <summary>
         /// There are no comments for Property Products in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("products")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductSummary> Products
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductSummary> Products
         {
             get
             {
@@ -1440,15 +1440,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductSummary> _Products = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductSummary>();
-        partial void OnProductsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductSummary> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductSummary> _Products = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductSummary>();
+        partial void OnProductsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductSummary> value);
         partial void OnProductsChanged();
         /// <summary>
         /// There are no comments for Property Promotions in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("promotions")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Promotion> Promotions
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Promotion> Promotions
         {
             get
             {
@@ -1462,15 +1462,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Promotion> _Promotions = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Promotion>();
-        partial void OnPromotionsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Promotion> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Promotion> _Promotions = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Promotion>();
+        partial void OnPromotionsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Promotion> value);
         partial void OnPromotionsChanged();
         /// <summary>
         /// There are no comments for Property Breadcrumbs in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("breadcrumbs")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Breadcrumb> Breadcrumbs
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Breadcrumb> Breadcrumbs
         {
             get
             {
@@ -1484,8 +1484,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Breadcrumb> _Breadcrumbs = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Breadcrumb>();
-        partial void OnBreadcrumbsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Breadcrumb> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Breadcrumb> _Breadcrumbs = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Breadcrumb>();
+        partial void OnBreadcrumbsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Breadcrumb> value);
         partial void OnBreadcrumbsChanged();
     }
     /// <summary>
@@ -1572,7 +1572,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("menuItems")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.MenuItem> MenuItems
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.MenuItem> MenuItems
         {
             get
             {
@@ -1586,8 +1586,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.MenuItem> _MenuItems = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.MenuItem>();
-        partial void OnMenuItemsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.MenuItem> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.MenuItem> _MenuItems = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.MenuItem>();
+        partial void OnMenuItemsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.MenuItem> value);
         partial void OnMenuItemsChanged();
     }
     /// <summary>
@@ -1762,7 +1762,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("price")]
-        public global::SDL.ECommerce.OData.ProductPrice Price
+        public global::Sdl.ECommerce.OData.ProductPrice Price
         {
             get
             {
@@ -1776,8 +1776,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.ProductPrice _Price;
-        partial void OnPriceChanging(global::SDL.ECommerce.OData.ProductPrice value);
+        private global::Sdl.ECommerce.OData.ProductPrice _Price;
+        partial void OnPriceChanging(global::Sdl.ECommerce.OData.ProductPrice value);
         partial void OnPriceChanged();
         /// <summary>
         /// There are no comments for Property ThumbnailUrl in the schema.
@@ -2047,7 +2047,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("facets")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Facet> Facets
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Facet> Facets
         {
             get
             {
@@ -2061,8 +2061,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Facet> _Facets = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Facet>();
-        partial void OnFacetsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.Facet> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Facet> _Facets = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Facet>();
+        partial void OnFacetsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.Facet> value);
         partial void OnFacetsChanged();
         /// <summary>
         /// There are no comments for Property EditUrl in the schema.
@@ -2310,7 +2310,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("categoryRef")]
-        public global::SDL.ECommerce.OData.CategoryRef CategoryRef
+        public global::Sdl.ECommerce.OData.CategoryRef CategoryRef
         {
             get
             {
@@ -2324,8 +2324,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.CategoryRef _CategoryRef;
-        partial void OnCategoryRefChanging(global::SDL.ECommerce.OData.CategoryRef value);
+        private global::Sdl.ECommerce.OData.CategoryRef _CategoryRef;
+        partial void OnCategoryRefChanging(global::Sdl.ECommerce.OData.CategoryRef value);
         partial void OnCategoryRefChanged();
         /// <summary>
         /// There are no comments for Property Facets in the schema.
@@ -2354,7 +2354,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("productRef")]
-        public global::SDL.ECommerce.OData.ProductRef ProductRef
+        public global::Sdl.ECommerce.OData.ProductRef ProductRef
         {
             get
             {
@@ -2368,8 +2368,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.ProductRef _ProductRef;
-        partial void OnProductRefChanging(global::SDL.ECommerce.OData.ProductRef value);
+        private global::Sdl.ECommerce.OData.ProductRef _ProductRef;
+        partial void OnProductRefChanging(global::Sdl.ECommerce.OData.ProductRef value);
         partial void OnProductRefChanged();
         /// <summary>
         /// There are no comments for Property StaticUrl in the schema.
@@ -2617,7 +2617,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("productsPromotion")]
-        public global::SDL.ECommerce.OData.ProductsPromotion ProductsPromotion
+        public global::Sdl.ECommerce.OData.ProductsPromotion ProductsPromotion
         {
             get
             {
@@ -2631,15 +2631,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.ProductsPromotion _ProductsPromotion;
-        partial void OnProductsPromotionChanging(global::SDL.ECommerce.OData.ProductsPromotion value);
+        private global::Sdl.ECommerce.OData.ProductsPromotion _ProductsPromotion;
+        partial void OnProductsPromotionChanging(global::Sdl.ECommerce.OData.ProductsPromotion value);
         partial void OnProductsPromotionChanged();
         /// <summary>
         /// There are no comments for Property ContentPromotion in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("contentPromotion")]
-        public global::SDL.ECommerce.OData.ContentPromotion ContentPromotion
+        public global::Sdl.ECommerce.OData.ContentPromotion ContentPromotion
         {
             get
             {
@@ -2653,8 +2653,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.ContentPromotion _ContentPromotion;
-        partial void OnContentPromotionChanging(global::SDL.ECommerce.OData.ContentPromotion value);
+        private global::Sdl.ECommerce.OData.ContentPromotion _ContentPromotion;
+        partial void OnContentPromotionChanging(global::Sdl.ECommerce.OData.ContentPromotion value);
         partial void OnContentPromotionChanged();
     }
     /// <summary>
@@ -2668,7 +2668,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("products")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductSummary> Products
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductSummary> Products
         {
             get
             {
@@ -2682,8 +2682,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductSummary> _Products = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductSummary>();
-        partial void OnProductsChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductSummary> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductSummary> _Products = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductSummary>();
+        partial void OnProductsChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductSummary> value);
         partial void OnProductsChanged();
     }
     /// <summary>
@@ -2741,7 +2741,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("location")]
-        public global::SDL.ECommerce.OData.Location Location
+        public global::Sdl.ECommerce.OData.Location Location
         {
             get
             {
@@ -2755,15 +2755,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.Location _Location;
-        partial void OnLocationChanging(global::SDL.ECommerce.OData.Location value);
+        private global::Sdl.ECommerce.OData.Location _Location;
+        partial void OnLocationChanging(global::Sdl.ECommerce.OData.Location value);
         partial void OnLocationChanged();
         /// <summary>
         /// There are no comments for Property ContentAreas in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("contentAreas")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ContentArea> ContentAreas
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ContentArea> ContentAreas
         {
             get
             {
@@ -2777,8 +2777,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ContentArea> _ContentAreas = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ContentArea>();
-        partial void OnContentAreasChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ContentArea> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ContentArea> _ContentAreas = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ContentArea>();
+        partial void OnContentAreasChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ContentArea> value);
         partial void OnContentAreasChanged();
     }
     /// <summary>
@@ -2880,7 +2880,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("location")]
-        public global::SDL.ECommerce.OData.Location Location
+        public global::Sdl.ECommerce.OData.Location Location
         {
             get
             {
@@ -2894,8 +2894,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.Location _Location;
-        partial void OnLocationChanging(global::SDL.ECommerce.OData.Location value);
+        private global::Sdl.ECommerce.OData.Location _Location;
+        partial void OnLocationChanging(global::Sdl.ECommerce.OData.Location value);
         partial void OnLocationChanged();
     }
     /// <summary>
@@ -2953,7 +2953,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("facet")]
-        public global::SDL.ECommerce.OData.Facet Facet
+        public global::Sdl.ECommerce.OData.Facet Facet
         {
             get
             {
@@ -2967,15 +2967,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.Facet _Facet;
-        partial void OnFacetChanging(global::SDL.ECommerce.OData.Facet value);
+        private global::Sdl.ECommerce.OData.Facet _Facet;
+        partial void OnFacetChanging(global::Sdl.ECommerce.OData.Facet value);
         partial void OnFacetChanged();
         /// <summary>
         /// There are no comments for Property CategoryRef in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("categoryRef")]
-        public global::SDL.ECommerce.OData.CategoryRef CategoryRef
+        public global::Sdl.ECommerce.OData.CategoryRef CategoryRef
         {
             get
             {
@@ -2989,8 +2989,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.CategoryRef _CategoryRef;
-        partial void OnCategoryRefChanging(global::SDL.ECommerce.OData.CategoryRef value);
+        private global::Sdl.ECommerce.OData.CategoryRef _CategoryRef;
+        partial void OnCategoryRefChanging(global::Sdl.ECommerce.OData.CategoryRef value);
         partial void OnCategoryRefChanged();
     }
     /// <summary>
@@ -3004,7 +3004,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("price")]
-        public global::SDL.ECommerce.OData.ProductPrice Price
+        public global::Sdl.ECommerce.OData.ProductPrice Price
         {
             get
             {
@@ -3018,15 +3018,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.ProductPrice _Price;
-        partial void OnPriceChanging(global::SDL.ECommerce.OData.ProductPrice value);
+        private global::Sdl.ECommerce.OData.ProductPrice _Price;
+        partial void OnPriceChanging(global::Sdl.ECommerce.OData.ProductPrice value);
         partial void OnPriceChanged();
         /// <summary>
         /// There are no comments for Property Product in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("product")]
-        public global::SDL.ECommerce.OData.ProductSummary Product
+        public global::Sdl.ECommerce.OData.ProductSummary Product
         {
             get
             {
@@ -3040,8 +3040,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.ProductSummary _Product;
-        partial void OnProductChanging(global::SDL.ECommerce.OData.ProductSummary value);
+        private global::Sdl.ECommerce.OData.ProductSummary _Product;
+        partial void OnProductChanging(global::Sdl.ECommerce.OData.ProductSummary value);
         partial void OnProductChanged();
         /// <summary>
         /// There are no comments for Property Quantity in the schema.
@@ -3099,7 +3099,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("price")]
-        public global::SDL.ECommerce.OData.ProductPrice Price
+        public global::Sdl.ECommerce.OData.ProductPrice Price
         {
             get
             {
@@ -3113,15 +3113,15 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::SDL.ECommerce.OData.ProductPrice _Price;
-        partial void OnPriceChanging(global::SDL.ECommerce.OData.ProductPrice value);
+        private global::Sdl.ECommerce.OData.ProductPrice _Price;
+        partial void OnPriceChanging(global::Sdl.ECommerce.OData.ProductPrice value);
         partial void OnPriceChanged();
         /// <summary>
         /// There are no comments for Property Attributes in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("attributes")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttribute> Attributes
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttribute> Attributes
         {
             get
             {
@@ -3135,8 +3135,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttribute> _Attributes = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttribute>();
-        partial void OnAttributesChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttribute> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttribute> _Attributes = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttribute>();
+        partial void OnAttributesChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttribute> value);
         partial void OnAttributesChanged();
     }
     /// <summary>
@@ -3289,7 +3289,7 @@ namespace SDL.ECommerce.OData
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
         [global::Microsoft.OData.Client.OriginalNameAttribute("values")]
-        public global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttributeValueType> Values
+        public global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttributeValueType> Values
         {
             get
             {
@@ -3303,8 +3303,8 @@ namespace SDL.ECommerce.OData
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "2.4.0")]
-        private global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttributeValueType> _Values = new global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttributeValueType>();
-        partial void OnValuesChanging(global::System.Collections.ObjectModel.Collection<global::SDL.ECommerce.OData.ProductVariantAttributeValueType> value);
+        private global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttributeValueType> _Values = new global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttributeValueType>();
+        partial void OnValuesChanging(global::System.Collections.ObjectModel.Collection<global::Sdl.ECommerce.OData.ProductVariantAttributeValueType> value);
         partial void OnValuesChanged();
     }
     /// <summary>
@@ -3463,115 +3463,115 @@ namespace SDL.ECommerce.OData
         /// </summary>
         /// <param name="source">source entity set</param>
         /// <param name="keys">dictionary with the names and values of keys</param>
-        public static global::SDL.ECommerce.OData.CategorySingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.Category> source, global::System.Collections.Generic.Dictionary<string, object> keys)
+        public static global::Sdl.ECommerce.OData.CategorySingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.Category> source, global::System.Collections.Generic.Dictionary<string, object> keys)
         {
-            return new global::SDL.ECommerce.OData.CategorySingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
+            return new global::Sdl.ECommerce.OData.CategorySingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
         }
         /// <summary>
         /// Get an entity of type global::SDL.ECommerce.OData.Category as global::SDL.ECommerce.OData.CategorySingle specified by key from an entity set
         /// </summary>
         /// <param name="source">source entity set</param>
         /// <param name="id">The value of id</param>
-        public static global::SDL.ECommerce.OData.CategorySingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.Category> source,
+        public static global::Sdl.ECommerce.OData.CategorySingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.Category> source,
             string id)
         {
             global::System.Collections.Generic.Dictionary<string, object> keys = new global::System.Collections.Generic.Dictionary<string, object>
             {
                 { "id", id }
             };
-            return new global::SDL.ECommerce.OData.CategorySingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
+            return new global::Sdl.ECommerce.OData.CategorySingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
         }
         /// <summary>
         /// Get an entity of type global::SDL.ECommerce.OData.Product as global::SDL.ECommerce.OData.ProductSingle specified by key from an entity set
         /// </summary>
         /// <param name="source">source entity set</param>
         /// <param name="keys">dictionary with the names and values of keys</param>
-        public static global::SDL.ECommerce.OData.ProductSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.Product> source, global::System.Collections.Generic.Dictionary<string, object> keys)
+        public static global::Sdl.ECommerce.OData.ProductSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.Product> source, global::System.Collections.Generic.Dictionary<string, object> keys)
         {
-            return new global::SDL.ECommerce.OData.ProductSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
+            return new global::Sdl.ECommerce.OData.ProductSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
         }
         /// <summary>
         /// Get an entity of type global::SDL.ECommerce.OData.Product as global::SDL.ECommerce.OData.ProductSingle specified by key from an entity set
         /// </summary>
         /// <param name="source">source entity set</param>
         /// <param name="id">The value of id</param>
-        public static global::SDL.ECommerce.OData.ProductSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.Product> source,
+        public static global::Sdl.ECommerce.OData.ProductSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.Product> source,
             string id)
         {
             global::System.Collections.Generic.Dictionary<string, object> keys = new global::System.Collections.Generic.Dictionary<string, object>
             {
                 { "id", id }
             };
-            return new global::SDL.ECommerce.OData.ProductSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
+            return new global::Sdl.ECommerce.OData.ProductSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
         }
         /// <summary>
         /// Get an entity of type global::SDL.ECommerce.OData.Cart as global::SDL.ECommerce.OData.CartSingle specified by key from an entity set
         /// </summary>
         /// <param name="source">source entity set</param>
         /// <param name="keys">dictionary with the names and values of keys</param>
-        public static global::SDL.ECommerce.OData.CartSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.Cart> source, global::System.Collections.Generic.Dictionary<string, object> keys)
+        public static global::Sdl.ECommerce.OData.CartSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.Cart> source, global::System.Collections.Generic.Dictionary<string, object> keys)
         {
-            return new global::SDL.ECommerce.OData.CartSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
+            return new global::Sdl.ECommerce.OData.CartSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
         }
         /// <summary>
         /// Get an entity of type global::SDL.ECommerce.OData.Cart as global::SDL.ECommerce.OData.CartSingle specified by key from an entity set
         /// </summary>
         /// <param name="source">source entity set</param>
         /// <param name="id">The value of id</param>
-        public static global::SDL.ECommerce.OData.CartSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.Cart> source,
+        public static global::Sdl.ECommerce.OData.CartSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.Cart> source,
             string id)
         {
             global::System.Collections.Generic.Dictionary<string, object> keys = new global::System.Collections.Generic.Dictionary<string, object>
             {
                 { "id", id }
             };
-            return new global::SDL.ECommerce.OData.CartSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
+            return new global::Sdl.ECommerce.OData.CartSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
         }
         /// <summary>
         /// Get an entity of type global::SDL.ECommerce.OData.ProductQueryResult as global::SDL.ECommerce.OData.ProductQueryResultSingle specified by key from an entity set
         /// </summary>
         /// <param name="source">source entity set</param>
         /// <param name="keys">dictionary with the names and values of keys</param>
-        public static global::SDL.ECommerce.OData.ProductQueryResultSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.ProductQueryResult> source, global::System.Collections.Generic.Dictionary<string, object> keys)
+        public static global::Sdl.ECommerce.OData.ProductQueryResultSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.ProductQueryResult> source, global::System.Collections.Generic.Dictionary<string, object> keys)
         {
-            return new global::SDL.ECommerce.OData.ProductQueryResultSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
+            return new global::Sdl.ECommerce.OData.ProductQueryResultSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
         }
         /// <summary>
         /// Get an entity of type global::SDL.ECommerce.OData.ProductQueryResult as global::SDL.ECommerce.OData.ProductQueryResultSingle specified by key from an entity set
         /// </summary>
         /// <param name="source">source entity set</param>
         /// <param name="resultId">The value of resultId</param>
-        public static global::SDL.ECommerce.OData.ProductQueryResultSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.ProductQueryResult> source,
+        public static global::Sdl.ECommerce.OData.ProductQueryResultSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.ProductQueryResult> source,
             string resultId)
         {
             global::System.Collections.Generic.Dictionary<string, object> keys = new global::System.Collections.Generic.Dictionary<string, object>
             {
                 { "resultId", resultId }
             };
-            return new global::SDL.ECommerce.OData.ProductQueryResultSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
+            return new global::Sdl.ECommerce.OData.ProductQueryResultSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
         }
         /// <summary>
         /// Get an entity of type global::SDL.ECommerce.OData.EditMenu as global::SDL.ECommerce.OData.EditMenuSingle specified by key from an entity set
         /// </summary>
         /// <param name="source">source entity set</param>
         /// <param name="keys">dictionary with the names and values of keys</param>
-        public static global::SDL.ECommerce.OData.EditMenuSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.EditMenu> source, global::System.Collections.Generic.Dictionary<string, object> keys)
+        public static global::Sdl.ECommerce.OData.EditMenuSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.EditMenu> source, global::System.Collections.Generic.Dictionary<string, object> keys)
         {
-            return new global::SDL.ECommerce.OData.EditMenuSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
+            return new global::Sdl.ECommerce.OData.EditMenuSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
         }
         /// <summary>
         /// Get an entity of type global::SDL.ECommerce.OData.EditMenu as global::SDL.ECommerce.OData.EditMenuSingle specified by key from an entity set
         /// </summary>
         /// <param name="source">source entity set</param>
         /// <param name="menuId">The value of menuId</param>
-        public static global::SDL.ECommerce.OData.EditMenuSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::SDL.ECommerce.OData.EditMenu> source,
+        public static global::Sdl.ECommerce.OData.EditMenuSingle ByKey(this global::Microsoft.OData.Client.DataServiceQuery<global::Sdl.ECommerce.OData.EditMenu> source,
             string menuId)
         {
             global::System.Collections.Generic.Dictionary<string, object> keys = new global::System.Collections.Generic.Dictionary<string, object>
             {
                 { "menuId", menuId }
             };
-            return new global::SDL.ECommerce.OData.EditMenuSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
+            return new global::Sdl.ECommerce.OData.EditMenuSingle(source.Context, source.GetKeyPath(global::Microsoft.OData.Client.Serializer.GetKeyString(source.Context, keys)));
         }
     }
 }

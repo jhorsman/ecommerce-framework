@@ -1,11 +1,11 @@
 ﻿using Sdl.Web.Delivery.Service;
-using SDL.ECommerce.Api.Model;
-using SDL.ECommerce.Api.Service;
+using Sdl.ECommerce.Api.Model;
+using Sdl.ECommerce.Api.Service;
 
 using System.Linq;
 using System.Text;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     /// <summary>
     /// E-Commerce Product Query Service

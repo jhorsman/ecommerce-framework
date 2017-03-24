@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.DXA.Models
+﻿namespace Sdl.ECommerce.Dxa.Models
 {
     /// <summary>
     /// Lister Navigation Data

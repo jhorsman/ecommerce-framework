@@ -1,8 +1,8 @@
-namespace SDL.ECommerce.DXA.Servants
+namespace Sdl.ECommerce.Dxa.Servants
 {
     using System.Collections.Generic;
 
-    using SDL.ECommerce.Api.Model;
+    using Sdl.ECommerce.Api.Model;
 
     public interface IPathServant
     {

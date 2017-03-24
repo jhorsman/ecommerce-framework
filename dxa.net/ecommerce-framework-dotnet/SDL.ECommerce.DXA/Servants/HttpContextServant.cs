@@ -2,9 +2,9 @@
 using System.Web;
 using System.Linq;
 
-using SDL.ECommerce.Api;
+using Sdl.ECommerce.Api;
 
-namespace SDL.ECommerce.DXA.Servants
+namespace Sdl.ECommerce.Dxa.Servants
 {
     public class HttpContextServant : IHttpContextServant
     {

@@ -1,8 +1,8 @@
 ﻿using Sdl.Web.Mvc.Configuration;
 
-using SDL.ECommerce.Api;
-using SDL.ECommerce.Api.Model;
-using SDL.ECommerce.OData;
+using Sdl.ECommerce.Api;
+using Sdl.ECommerce.Api.Model;
+using Sdl.ECommerce.OData;
 
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Web;
 using System.Web.Configuration;
 using System.Web.Mvc;
 
-namespace SDL.ECommerce.DXA
+namespace Sdl.ECommerce.Dxa
 {
     using Sdl.Web.Common.Configuration;
 

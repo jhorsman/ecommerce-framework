@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Configuration;
 using System.Web.Mvc;
 
-namespace SDL.ECommerce.DXA.Controllers
+namespace Sdl.ECommerce.Dxa.Controllers
 {
     public class EditProxyController : System.Web.Mvc.Controller
     {

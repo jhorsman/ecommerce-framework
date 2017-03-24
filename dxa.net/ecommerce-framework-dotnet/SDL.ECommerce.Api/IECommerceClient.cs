@@ -1,7 +1,9 @@
-﻿using SDL.ECommerce.Api.Service;
+﻿using Sdl.ECommerce.Api.Service;
 
-namespace SDL.ECommerce.Api
+namespace Sdl.ECommerce.Api
 {
+    using Sdl.ECommerce.Api.Service;
+
     public interface IECommerceClient
     {
         IProductCategoryService CategoryService { get; }

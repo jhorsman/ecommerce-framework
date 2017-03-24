@@ -1,9 +1,11 @@
 ﻿using Sdl.Web.Mvc.Configuration;
-using SDL.ECommerce.DXA.Models;
+using Sdl.ECommerce.Dxa.Models;
 using System.Web.Mvc;
 
-namespace SDL.ECommerce.DXA.Example.Views
+namespace Sdl.ECommerce.Dxa.Example.Views
 {
+    using Sdl.ECommerce.Dxa.Models;
+
     public class ECommerceAreaRegistration : BaseAreaRegistration
     {
         // TODO: Use Razor generator here??

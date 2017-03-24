@@ -1,6 +1,6 @@
-﻿using SDL.ECommerce.Api.Model;
+﻿using Sdl.ECommerce.Api.Model;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     public partial class ProductPrice : IProductPrice
     {

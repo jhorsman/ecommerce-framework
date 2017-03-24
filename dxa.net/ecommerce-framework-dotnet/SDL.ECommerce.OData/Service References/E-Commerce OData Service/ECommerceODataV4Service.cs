@@ -2,7 +2,7 @@
 
 using Sdl.Web.Delivery.Service;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     public class ECommerceODataV4Service : ODataV4Service, IECommerceODataV4Service
     {

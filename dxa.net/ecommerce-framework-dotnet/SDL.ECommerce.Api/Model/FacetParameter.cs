@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace SDL.ECommerce.Api
+namespace Sdl.ECommerce.Api
 {
    /// <summary>
    ///  Facet Parameter.

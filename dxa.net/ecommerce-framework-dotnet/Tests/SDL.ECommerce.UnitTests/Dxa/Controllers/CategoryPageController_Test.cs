@@ -15,10 +15,10 @@
     using Sdl.Web.Common.Interfaces;
     using Sdl.Web.Common.Models;
 
-    using SDL.ECommerce.Api;
-    using SDL.ECommerce.Api.Model;
-    using SDL.ECommerce.DXA.Controllers;
-    using SDL.ECommerce.DXA.Servants;
+    using Sdl.ECommerce.Api;
+    using Sdl.ECommerce.Api.Model;
+    using Sdl.ECommerce.Dxa.Controllers;
+    using Sdl.ECommerce.Dxa.Servants;
 
     using Xunit;
     
@@ -50,7 +50,7 @@
             public WhenCallingCategoryPageWithValidUrl()
             {
                 Fixture.Freeze<IECommerceClient>()
-                       .QueryService.Query(Arg.Any<ECommerce.Api.Model.Query>())
+                       .QueryService.Query(Arg.Any<Sdl.ECommerce.Api.Model.Query>())
                        .RedirectLocation.Returns((ILocation)null);
 
                 _pageModel = Fixture.Create<PageModel>();
@@ -88,13 +88,13 @@
             [Fact]
             public void CategoryWillBeSetInTheHttpContextCurrentQueryItem()
             {
-                Assert.Equal(_category, ((ECommerce.Api.Model.Query)_httpContextItems["ECOM-CurrentQuery"]).Category);
+                Assert.Equal(_category, ((Sdl.ECommerce.Api.Model.Query)_httpContextItems["ECOM-CurrentQuery"]).Category);
             }
 
             [Fact]
             public void FacetsWillBeSetInTheHttpContextCurrentQueryItemItem()
             {
-                Assert.Equal(_parameters, ((ECommerce.Api.Model.Query)_httpContextItems["ECOM-CurrentQuery"]).Facets);
+                Assert.Equal(_parameters, ((Sdl.ECommerce.Api.Model.Query)_httpContextItems["ECOM-CurrentQuery"]).Facets);
             }
 
             [Fact]
@@ -103,14 +103,14 @@
                 var startIndex = Fixture.GetStub<IHttpContextServant>()
                                         .GetStartIndex(Arg.Any<HttpContextBase>());
 
-                Assert.Equal(startIndex, ((ECommerce.Api.Model.Query)_httpContextItems["ECOM-CurrentQuery"]).StartIndex);
+                Assert.Equal(startIndex, ((Sdl.ECommerce.Api.Model.Query)_httpContextItems["ECOM-CurrentQuery"]).StartIndex);
             }
 
             [Fact]
             public void SearchResultWillBeSetInTheHttpContext()
             {
                 var query = Fixture.GetStub<IECommerceClient>()
-                                   .QueryService.Query(Arg.Any<ECommerce.Api.Model.Query>());
+                                   .QueryService.Query(Arg.Any<Sdl.ECommerce.Api.Model.Query>());
 
                 Assert.Equal(query, _httpContextItems["ECOM-QueryResult"]);
             }
@@ -170,7 +170,7 @@
             {
                 Fixture.GetStub<IPageModelServant>()
                        .Received(1)
-                       .GetQueryContributions(Arg.Is<PageModel>(model => model.Title == _pageModel.Title), Arg.Is<ECommerce.Api.Model.Query>(model => model.Category == _category));
+                       .GetQueryContributions(Arg.Is<PageModel>(model => model.Title == _pageModel.Title), Arg.Is<Sdl.ECommerce.Api.Model.Query>(model => model.Category == _category));
             }
 
             [Fact]
@@ -178,7 +178,7 @@
             {
                 Fixture.GetStub<IECommerceClient>()
                        .QueryService.Received(1)
-                       .Query(Arg.Is<ECommerce.Api.Model.Query>(model => model.Category == _category));
+                       .Query(Arg.Is<Sdl.ECommerce.Api.Model.Query>(model => model.Category == _category));
             }
 
             [Fact]
@@ -193,7 +193,7 @@
             public WhenCallingCategoryPageWithEmptyUrl()
             {
                 Fixture.Freeze<IECommerceClient>()
-                       .QueryService.Query(Arg.Any<ECommerce.Api.Model.Query>())
+                       .QueryService.Query(Arg.Any<Sdl.ECommerce.Api.Model.Query>())
                        .RedirectLocation.Returns((ILocation)null);
 
                 Fixture.Freeze<IPageModelServant>()
@@ -232,7 +232,7 @@
 
                 Fixture.Freeze<IECommerceLinkResolver>()
                        .GetLocationLink(Fixture.Freeze<IECommerceClient>()
-                                               .QueryService.Query(Arg.Any<ECommerce.Api.Model.Query>())
+                                               .QueryService.Query(Arg.Any<Sdl.ECommerce.Api.Model.Query>())
                                                .RedirectLocation)
                        .Returns("http://localhost:1234");
 

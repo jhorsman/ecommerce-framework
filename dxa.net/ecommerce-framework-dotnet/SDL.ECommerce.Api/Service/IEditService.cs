@@ -1,7 +1,9 @@
-﻿using SDL.ECommerce.Api.Model;
+﻿using Sdl.ECommerce.Api.Model;
 
-namespace SDL.ECommerce.Api.Service
+namespace Sdl.ECommerce.Api.Service
 {
+    using Sdl.ECommerce.Api.Model;
+
     /// <summary>
     /// E-Commerce Edit Service
     /// </summary>

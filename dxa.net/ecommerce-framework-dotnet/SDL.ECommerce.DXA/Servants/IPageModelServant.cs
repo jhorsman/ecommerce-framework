@@ -1,9 +1,11 @@
-﻿namespace SDL.ECommerce.DXA.Servants
+﻿namespace Sdl.ECommerce.Dxa.Servants
 {
     using System.Collections.Generic;
 
     using Sdl.Web.Common.Interfaces;
     using Sdl.Web.Common.Models;
+
+    using Query = Sdl.ECommerce.Api.Model.Query;
 
     public interface IPageModelServant
     {
@@ -11,7 +13,7 @@
 
         void SetTemplatePage(PageModel model);
 
-        void GetQueryContributions(PageModel templatePage, Api.Model.Query query);
+        void GetQueryContributions(PageModel templatePage, Query query);
 
         PageModel GetNotFoundPageModel(IContentProvider contentProvider);
     }

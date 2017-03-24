@@ -1,9 +1,9 @@
 ﻿using Sdl.Web.Common.Models;
-using SDL.ECommerce.Api.Model;
+using Sdl.ECommerce.Api.Model;
 
 using System.Collections.Generic;
 
-namespace SDL.ECommerce.DXA.Models
+namespace Sdl.ECommerce.Dxa.Models
 {
     [SemanticEntity(Vocab = CoreVocabulary, EntityName = "BreadcrumbWidget", Prefix = "e")]
     public class BreadcrumbWidget : EntityModel

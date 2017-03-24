@@ -1,9 +1,11 @@
 ﻿using Sdl.Web.Common.Models;
 using Sdl.Web.Mvc.Configuration;
-using SDL.DXA.Modules.Navigation.Models;
+using Sdl.Dxa.Modules.Navigation.Models;
 
-namespace SDL.DXA.Modules.Navigation
+namespace Sdl.Dxa.Modules.Navigation
 {
+    using Sdl.Dxa.Modules.Navigation.Models;
+
     public class NavigationAreaRegistration : BaseAreaRegistration
     {
         public override string AreaName

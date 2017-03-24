@@ -1,10 +1,10 @@
-﻿namespace SDL.ECommerce.DXA.Servants
+﻿namespace Sdl.ECommerce.Dxa.Servants
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using SDL.ECommerce.Api.Model;
+    using Sdl.ECommerce.Api.Model;
 
     public class PathServant : IPathServant
     {

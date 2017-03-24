@@ -4,7 +4,7 @@
 
     using Ploeh.AutoFixture;
     using Ploeh.AutoFixture.Kernel;
-    using SDL.ECommerce.DXA.Providers;
+    using Sdl.ECommerce.Dxa.Providers;
 
     internal class DependencyTestProvider : IDisposable
     {

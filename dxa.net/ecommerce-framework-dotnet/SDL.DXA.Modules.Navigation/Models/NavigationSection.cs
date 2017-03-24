@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-namespace SDL.DXA.Modules.Navigation.Models
+namespace Sdl.Dxa.Modules.Navigation.Models
 {
     /// <summary>
     /// Navigation Section

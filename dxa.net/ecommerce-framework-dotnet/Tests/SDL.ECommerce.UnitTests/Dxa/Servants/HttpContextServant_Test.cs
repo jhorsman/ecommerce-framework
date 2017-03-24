@@ -9,8 +9,8 @@
 
     using Ploeh.AutoFixture;
 
-    using SDL.ECommerce.Api;
-    using SDL.ECommerce.DXA.Servants;
+    using Sdl.ECommerce.Api;
+    using Sdl.ECommerce.Dxa.Servants;
 
     using Xunit;
 

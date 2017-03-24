@@ -1,11 +1,11 @@
-﻿using SDL.ECommerce.Api;
+﻿using Sdl.ECommerce.Api;
 using System;
 using System.Collections.Generic;
 
-using SDL.ECommerce.Api.Model;
+using Sdl.ECommerce.Api.Model;
 using System.Text;
 
-namespace SDL.ECommerce.DXA
+namespace Sdl.ECommerce.Dxa
 {
     public class DXALinkResolver : IECommerceLinkResolver
     {

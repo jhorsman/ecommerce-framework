@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-using SDL.ECommerce.Api.Model;
+using Sdl.ECommerce.Api.Model;
 
 /**
  * E-Commerce Product

@@ -1,12 +1,13 @@
-﻿namespace SDL.ECommerce.DXA.Factories
+﻿namespace Sdl.ECommerce.Dxa.Factories
 {
     using System;
     using System.Collections.Generic;
     using System.Threading;
 
-    using SDL.ECommerce.Api;
-    using SDL.ECommerce.DXA.Providers;
-    using SDL.ECommerce.DXA.Servants;
+    using Sdl.ECommerce.Dxa.Providers;
+    using Sdl.ECommerce.Dxa.Servants;
+
+    using Sdl.ECommerce.Api;
 
     public class DependencyFactory
     {

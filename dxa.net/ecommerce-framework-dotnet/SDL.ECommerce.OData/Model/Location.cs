@@ -1,11 +1,11 @@
-﻿using SDL.ECommerce.Api.Model;
+﻿using Sdl.ECommerce.Api.Model;
 
 using System.Collections.Generic;
 using System.Linq;
 
-using SDL.ECommerce.Api;
+using Sdl.ECommerce.Api;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     public partial class Location : ILocation
     {

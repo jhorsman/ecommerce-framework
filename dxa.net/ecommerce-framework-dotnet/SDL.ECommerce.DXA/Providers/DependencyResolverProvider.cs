@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.DXA.Providers
+﻿namespace Sdl.ECommerce.Dxa.Providers
 {
     using System;
     using System.Threading;

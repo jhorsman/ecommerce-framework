@@ -2,7 +2,7 @@
 
 using Xunit;
 
-using SDL.ECommerce.Api;
+using Sdl.ECommerce.Api;
 
 namespace SDL.ECommerce.UnitTests.Api
 {

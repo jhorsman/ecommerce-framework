@@ -4,9 +4,9 @@ using System.Linq;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using SDL.ECommerce.Api;
-using SDL.ECommerce.Api.Model;
-using SDL.ECommerce.OData;
+using Sdl.ECommerce.Api;
+using Sdl.ECommerce.Api.Model;
+using Sdl.ECommerce.OData;
 
 namespace SDL.ECommerce.IntegrationTests.OData
 {

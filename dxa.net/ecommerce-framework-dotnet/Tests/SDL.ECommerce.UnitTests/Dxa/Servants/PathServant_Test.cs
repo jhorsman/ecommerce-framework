@@ -12,8 +12,8 @@
 
     using Sdl.Web.Common.Configuration;
 
-    using SDL.ECommerce.Api.Model;
-    using SDL.ECommerce.DXA.Servants;
+    using Sdl.ECommerce.Api.Model;
+    using Sdl.ECommerce.Dxa.Servants;
 
     using Xunit;
 

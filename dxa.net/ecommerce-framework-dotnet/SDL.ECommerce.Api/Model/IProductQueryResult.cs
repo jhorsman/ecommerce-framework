@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SDL.ECommerce.Api.Model
+namespace Sdl.ECommerce.Api.Model
 {
     /// <summary>
     /// Product query result interface.

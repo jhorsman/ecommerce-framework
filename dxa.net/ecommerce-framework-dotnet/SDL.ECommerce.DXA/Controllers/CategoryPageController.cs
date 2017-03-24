@@ -1,14 +1,16 @@
-﻿namespace SDL.ECommerce.DXA.Controllers
+﻿namespace Sdl.ECommerce.Dxa.Controllers
 {
     using Sdl.Web.Common.Logging;
 
     using System.Web.Mvc;
 
+    using Sdl.ECommerce.Dxa.Factories;
+    using Sdl.ECommerce.Dxa.Servants;
     using Sdl.Web.Common.Models;
 
-    using SDL.ECommerce.Api;
-    using SDL.ECommerce.DXA.Servants;
-    using SDL.ECommerce.DXA.Factories;
+    using Sdl.ECommerce.Api;
+
+    using Query = Sdl.ECommerce.Api.Model.Query;
 
     /// <summary>
     /// E-Commerce Category Page Controller
@@ -55,7 +57,7 @@
                 SetupViewData(templatePage);
 
                 var facets = _httpContextServant.GetFacetParametersFromRequest(HttpContext);
-                var query = new Api.Model.Query
+                var query = new Query
                                 {
                                     Category = category,
                                     Facets = facets,

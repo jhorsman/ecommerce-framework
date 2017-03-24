@@ -1,11 +1,11 @@
-﻿using SDL.ECommerce.Api.Service;
+﻿using Sdl.ECommerce.Api.Service;
 
 using System.Linq;
 
-using SDL.ECommerce.Api.Model;
+using Sdl.ECommerce.Api.Model;
 using Sdl.Web.Delivery.Service;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     public class CartService : ICartService
     {

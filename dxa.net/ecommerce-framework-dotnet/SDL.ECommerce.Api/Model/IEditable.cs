@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.Api.Model
+﻿namespace Sdl.ECommerce.Api.Model
 {
     /// <summary>
     /// Markes a specific E-Commerce entity (facet, promotion etc) as editable. When entering XPM

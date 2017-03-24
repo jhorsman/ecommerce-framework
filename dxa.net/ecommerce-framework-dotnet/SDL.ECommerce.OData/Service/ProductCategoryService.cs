@@ -1,10 +1,10 @@
-﻿using SDL.ECommerce.Api.Model;
-using SDL.ECommerce.Api.Service;
+﻿using Sdl.ECommerce.Api.Model;
+using Sdl.ECommerce.Api.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     /// <summary>
     /// E-Commerce Category Service

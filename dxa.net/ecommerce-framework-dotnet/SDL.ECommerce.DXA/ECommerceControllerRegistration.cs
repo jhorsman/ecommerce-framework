@@ -4,7 +4,7 @@ using Sdl.Web.Common.Logging;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace SDL.ECommerce.DXA
+namespace Sdl.ECommerce.Dxa
 {
     public class ECommerceControllerRegistration
     {

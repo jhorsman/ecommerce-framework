@@ -1,8 +1,8 @@
-﻿using SDL.ECommerce.Api.Model;
+﻿using Sdl.ECommerce.Api.Model;
 using System;
 using System.Collections.Generic;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     public partial class Category : ICategory
     {

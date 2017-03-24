@@ -1,9 +1,9 @@
-namespace SDL.ECommerce.DXA.Servants
+namespace Sdl.ECommerce.Dxa.Servants
 {
     using System.Collections.Generic;
     using System.Web;
 
-    using SDL.ECommerce.Api;
+    using Sdl.ECommerce.Api;
 
     public interface IHttpContextServant
     {

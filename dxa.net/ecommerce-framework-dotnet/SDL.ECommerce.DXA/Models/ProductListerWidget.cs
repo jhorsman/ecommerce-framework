@@ -1,10 +1,14 @@
 ﻿using Sdl.Web.Common.Models;
-using SDL.ECommerce.Api.Model;
+using Sdl.ECommerce.Api.Model;
 
 using System.Collections.Generic;
 
-namespace SDL.ECommerce.DXA.Models
+namespace Sdl.ECommerce.Dxa.Models
 {
+    using Sdl.ECommerce.Api;
+
+    using Query = Sdl.ECommerce.Api.Model.Query;
+
     [SemanticEntity(Vocab = CoreVocabulary, EntityName = "ProductListerWidget", Prefix = "e")]
     public class ProductListerWidget : EntityModel, IQueryContributor
     {
@@ -26,7 +30,7 @@ namespace SDL.ECommerce.DXA.Models
         [SemanticProperty(IgnoreMapping = true)]
         public ListerNavigationData NavigationData { get; set; }
 
-        public void ContributeToQuery(Api.Model.Query query)
+        public void ContributeToQuery(Query query)
         {
             if ( ViewSize != null )
             {
@@ -36,7 +40,7 @@ namespace SDL.ECommerce.DXA.Models
             {
                 foreach ( var filterAttribute in FilterAttributes )
                 {
-                    query.Facets.Add(new Api.FacetParameter(filterAttribute.Name + "_hidden", filterAttribute.Value));
+                    query.Facets.Add(new FacetParameter(filterAttribute.Name + "_hidden", filterAttribute.Value));
                 }
             } 
           

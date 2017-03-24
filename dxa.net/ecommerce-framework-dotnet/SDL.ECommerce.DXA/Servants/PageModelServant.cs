@@ -1,4 +1,4 @@
-﻿namespace SDL.ECommerce.DXA.Servants
+﻿namespace Sdl.ECommerce.Dxa.Servants
 {
     using System.Collections.Generic;
     using System.Web;
@@ -9,7 +9,9 @@
     using Sdl.Web.Common.Models;
     using Sdl.Web.Mvc.Configuration;
 
-    using SDL.ECommerce.Api.Model;
+    using Sdl.ECommerce.Api.Model;
+
+    using Query = Sdl.ECommerce.Api.Model.Query;
 
     public class PageModelServant : IPageModelServant
     {
@@ -44,7 +46,7 @@
             }
         }
 
-        public void GetQueryContributions(PageModel templatePage, Api.Model.Query query)
+        public void GetQueryContributions(PageModel templatePage, Query query)
         {
             foreach (var region in templatePage.Regions)
             {

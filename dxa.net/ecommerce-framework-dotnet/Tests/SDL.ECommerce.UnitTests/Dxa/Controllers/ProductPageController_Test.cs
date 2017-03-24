@@ -17,9 +17,9 @@
     using Sdl.Web.Common.Interfaces;
     using Sdl.Web.Common.Models;
 
-    using SDL.ECommerce.Api;
-    using SDL.ECommerce.DXA.Controllers;
-    using SDL.ECommerce.DXA.Servants;
+    using Sdl.ECommerce.Api;
+    using Sdl.ECommerce.Dxa.Controllers;
+    using Sdl.ECommerce.Dxa.Servants;
 
     using Xunit;
 

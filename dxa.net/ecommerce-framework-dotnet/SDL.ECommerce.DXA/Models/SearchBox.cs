@@ -1,6 +1,6 @@
 ﻿using Sdl.Web.Common.Models;
 
-namespace SDL.ECommerce.DXA.Models
+namespace Sdl.ECommerce.Dxa.Models
 {
     [SemanticEntity(Vocab = CoreVocabulary, EntityName = "SearchBox", Prefix = "e")]
     public class SearchBox : EntityModel

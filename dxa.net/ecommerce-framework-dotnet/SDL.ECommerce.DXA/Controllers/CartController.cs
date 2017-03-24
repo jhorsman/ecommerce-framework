@@ -2,7 +2,7 @@
 
 using System.Web.Mvc;
 
-namespace SDL.ECommerce.DXA.Controllers
+namespace Sdl.ECommerce.Dxa.Controllers
 {
     /// <summary>
     /// Cart Controller

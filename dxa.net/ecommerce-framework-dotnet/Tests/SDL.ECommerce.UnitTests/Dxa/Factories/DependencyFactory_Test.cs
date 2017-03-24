@@ -4,10 +4,10 @@
 
     using NSubstitute;
 
-    using SDL.ECommerce.Api;
-    using SDL.ECommerce.DXA;
-    using SDL.ECommerce.DXA.Factories;
-    using SDL.ECommerce.DXA.Providers;
+    using Sdl.ECommerce.Api;
+    using Sdl.ECommerce.Dxa;
+    using Sdl.ECommerce.Dxa.Factories;
+    using Sdl.ECommerce.Dxa.Providers;
 
     using Xunit;
 

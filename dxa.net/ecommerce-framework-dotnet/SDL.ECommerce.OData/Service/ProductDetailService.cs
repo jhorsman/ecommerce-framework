@@ -1,12 +1,12 @@
 ﻿using Microsoft.OData.Client;
 using Sdl.Web.Delivery.Service;
-using SDL.ECommerce.Api.Service;
+using Sdl.ECommerce.Api.Service;
 
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     /// <summary>
     /// E-Commerce Product Detail Service

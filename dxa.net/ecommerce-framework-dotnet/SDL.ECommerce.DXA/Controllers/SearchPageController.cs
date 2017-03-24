@@ -4,8 +4,10 @@ using Sdl.Web.Common.Models;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
-namespace SDL.ECommerce.DXA.Controllers
+namespace Sdl.ECommerce.Dxa.Controllers
 {
+    using Sdl.ECommerce.Api.Model;
+
     /// <summary>
     /// E-Commerce Search Page Controller
     /// </summary>
@@ -39,13 +41,13 @@ namespace SDL.ECommerce.DXA.Controllers
 
             // Build query
             //
-            Api.Model.Query query;
+            Query query;
             if ( categoryUrl != null )
             {
                 var category = ECommerceContext.Client.CategoryService.GetCategoryByPath(categoryUrl);
                 if (category != null)
                 {
-                    query = new Api.Model.Query { SearchPhrase = searchPhrase, Category = category, Facets = facets, StartIndex = GetStartIndex() };
+                    query = new Query { SearchPhrase = searchPhrase, Category = category, Facets = facets, StartIndex = GetStartIndex() };
                     ECommerceContext.Set(ECommerceContext.CATEGORY, category);
                 }
                 else
@@ -55,7 +57,7 @@ namespace SDL.ECommerce.DXA.Controllers
             }
             else
             {
-                query = new Api.Model.Query { SearchPhrase = searchPhrase, Facets = facets, StartIndex = GetStartIndex() };
+                query = new Query { SearchPhrase = searchPhrase, Facets = facets, StartIndex = GetStartIndex() };
             } 
             
             templatePage = this.ResolveTemplatePage(this.GetSearchPath());

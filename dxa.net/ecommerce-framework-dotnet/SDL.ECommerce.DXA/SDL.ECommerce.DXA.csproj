@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SDL.ECommerce.DXA</RootNamespace>
-    <AssemblyName>SDL.ECommerce.DXA</AssemblyName>
+    <RootNamespace>Sdl.ECommerce.Dxa</RootNamespace>
+    <AssemblyName>Sdl.ECommerce.Dxa</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -228,13 +228,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\SDL.ECommerce.Api\SDL.ECommerce.Api.csproj">
+    <ProjectReference Include="..\SDL.ECommerce.Api\Sdl.ECommerce.Api.csproj">
       <Project>{1030d0f7-9334-4864-b495-540e3ad7928c}</Project>
-      <Name>SDL.ECommerce.Api</Name>
+      <Name>Sdl.ECommerce.Api</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SDL.ECommerce.OData\SDL.ECommerce.OData.csproj">
+    <ProjectReference Include="..\SDL.ECommerce.OData\Sdl.ECommerce.OData.csproj">
       <Project>{f5434b12-5f20-48df-8b17-a6c2a1345ba9}</Project>
-      <Name>SDL.ECommerce.OData</Name>
+      <Name>Sdl.ECommerce.OData</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -1,6 +1,6 @@
 ﻿using Sdl.Web.Delivery.Service;
 
-namespace SDL.ECommerce.OData
+namespace Sdl.ECommerce.OData
 {
     public interface IECommerceODataV4Service : IODataV4Service
     {

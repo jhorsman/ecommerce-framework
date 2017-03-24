@@ -1,9 +1,11 @@
-﻿using SDL.ECommerce.Api.Model;
+﻿using Sdl.ECommerce.Api.Model;
 
 using System.Collections.Generic;
 
-namespace SDL.ECommerce.Api
+namespace Sdl.ECommerce.Api
 {
+    using Sdl.ECommerce.Api.Model;
+
     /// <summary>
     /// Interface for E-Commerce Link Resolver.
     /// </summary>

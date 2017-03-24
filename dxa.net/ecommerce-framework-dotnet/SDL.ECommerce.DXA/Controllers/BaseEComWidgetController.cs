@@ -5,14 +5,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
-using SDL.ECommerce.DXA.Models;
-using SDL.ECommerce.Api;
-using SDL.ECommerce.Api.Model;
+using Sdl.ECommerce.Dxa.Models;
+using Sdl.ECommerce.Api;
+using Sdl.ECommerce.Api.Model;
 using Sdl.Web.Mvc.Configuration;
 using System.Runtime.Caching;
 
-namespace SDL.ECommerce.DXA.Controller
+namespace Sdl.ECommerce.Dxa.Controller
 {
+    using Sdl.ECommerce.Dxa.Models;
+
+    using Query = Sdl.ECommerce.Api.Model.Query;
+    using ViewType = Sdl.ECommerce.Api.Model.ViewType;
+
     /// <summary>
     /// Base Controller for E-Commerce widgets such as listers, facets, breadcrumbs etc
     /// </summary>
@@ -90,7 +95,7 @@ namespace SDL.ECommerce.DXA.Controller
             if ( widget.CategoryReference != null )
             {
                 var category = ResolveCategory(widget.CategoryReference);
-                queryResult = ECommerceContext.Client.QueryService.Query(new Api.Model.Query { Category = category });
+                queryResult = ECommerceContext.Client.QueryService.Query(new Query { Category = category });
             }
             else
             {
@@ -126,7 +131,7 @@ namespace SDL.ECommerce.DXA.Controller
             if ( widget.CategoryReference != null )
             {
                 var category = ResolveCategory(widget.CategoryReference);
-                queryResult = ECommerceContext.Client.QueryService.Query(new Api.Model.Query { Category = category });
+                queryResult = ECommerceContext.Client.QueryService.Query(new Query { Category = category });
             }
             else
             {
@@ -163,10 +168,10 @@ namespace SDL.ECommerce.DXA.Controller
                     if (cachedData == null)
                     {
                         var queryResult = ECommerceContext.Client.QueryService.Query(
-                            new Api.Model.Query
+                            new Query
                             {
                                 Category = widget.CategoryReference.Category,
-                                ViewType = Api.Model.ViewType.FLYOUT
+                                ViewType = ViewType.FLYOUT
                             });
 
                         cachedData = new FlyoutData
@@ -200,12 +205,12 @@ namespace SDL.ECommerce.DXA.Controller
             IProductQueryResult queryResult = null;
             if (widget.CategoryReference != null)
             {
-                var query = new Api.Model.Query();
+                var query = new Query();
                 var category = ResolveCategory(widget.CategoryReference);
                 query.Category = category;
                 if ( widget.ViewType != null )
                 {
-                    query.ViewType = (Api.Model.ViewType) Enum.Parse(typeof(Api.Model.ViewType), widget.ViewType.ToUpper());
+                    query.ViewType = (ViewType) Enum.Parse(typeof(ViewType), widget.ViewType.ToUpper());
                 }
                 queryResult = ECommerceContext.Client.QueryService.Query(query);
             }
@@ -256,7 +261,7 @@ namespace SDL.ECommerce.DXA.Controller
             if (widget.CategoryReference != null)
             {
                 var category = ResolveCategory(widget.CategoryReference);
-                queryResult = ECommerceContext.Client.QueryService.Query(new Api.Model.Query { Category = category });
+                queryResult = ECommerceContext.Client.QueryService.Query(new Query { Category = category });
             }
             else
             {
@@ -351,7 +356,7 @@ namespace SDL.ECommerce.DXA.Controller
             if (requestPath.StartsWith(ECommerceContext.LocalizePath("/categories")))
             {
                 var category = this.GetCategoryFromPageTemplate(requestPath);
-                var query = new Api.Model.Query
+                var query = new Query
                 {
                     Category = category,
                     Facets = ECommerceContext.Get(ECommerceContext.FACETS) as IList<FacetParameter>

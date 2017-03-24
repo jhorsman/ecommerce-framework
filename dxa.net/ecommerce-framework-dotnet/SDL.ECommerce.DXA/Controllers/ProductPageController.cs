@@ -4,13 +4,16 @@ using Sdl.Web.Common.Models;
 using System;
 using System.Web.Mvc;
 
-using SDL.ECommerce.Api;
-using SDL.ECommerce.DXA.Factories;
-using SDL.ECommerce.DXA.Servants;
+using Sdl.ECommerce.Api;
+using Sdl.ECommerce.Dxa.Factories;
+using Sdl.ECommerce.Dxa.Servants;
 
-namespace SDL.ECommerce.DXA.Controllers
+namespace Sdl.ECommerce.Dxa.Controllers
 {
     using System.Linq;
+
+    using Sdl.ECommerce.Dxa.Factories;
+    using Sdl.ECommerce.Dxa.Servants;
 
     /// <summary>
     /// E-Commerce Product Page Controller

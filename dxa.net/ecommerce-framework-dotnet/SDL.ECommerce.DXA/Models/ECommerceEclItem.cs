@@ -1,7 +1,7 @@
 ﻿using Sdl.Web.Common.Models;
-using SDL.ECommerce.Api.Model;
+using Sdl.ECommerce.Api.Model;
 
-namespace SDL.ECommerce.DXA.Models
+namespace Sdl.ECommerce.Dxa.Models
 {
     /// <summary>
     /// E-Commerce ECL Item

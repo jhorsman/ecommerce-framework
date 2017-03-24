@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SDL.ECommerce.Api.Model
+namespace Sdl.ECommerce.Api.Model
 {
     /// <summary>
     /// Variant Link Type

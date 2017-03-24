@@ -1,9 +1,11 @@
-﻿using SDL.ECommerce.Api.Model;
+﻿using Sdl.ECommerce.Api.Model;
 
 using System.Collections.Generic;
 
-namespace SDL.ECommerce.Api.Service
+namespace Sdl.ECommerce.Api.Service
 {
+    using Sdl.ECommerce.Api.Model;
+
     /// <summary>
     /// E-Commerce Product Category Service
     /// </summary>
