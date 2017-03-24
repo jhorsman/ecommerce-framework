@@ -9,7 +9,7 @@ namespace Sdl.ECommerce.Dxa
     public class ECommerceControllerRegistration
     {
        
-        const string NAMESPACE = "SDL.ECommerce.DXA.Controllers";
+        const string NAMESPACE = "Sdl.ECommerce.Dxa.Controllers";
 
         public static void RegisterControllers(RouteCollection routes)
         {

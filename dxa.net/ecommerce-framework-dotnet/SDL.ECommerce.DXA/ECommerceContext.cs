@@ -29,7 +29,7 @@ namespace Sdl.ECommerce.Dxa
         public const string SEARCH_PHRASE = "SearchPhrase";
 
         private static IDictionary<string, IECommerceClient> clients = new Dictionary<string,IECommerceClient>();
-        private static IECommerceLinkResolver linkResolver = new DXALinkResolver();
+        private static IECommerceLinkResolver linkResolver = new DxaLinkResolver();
 
         /// <summary>
         /// Cline to E-Commerce services

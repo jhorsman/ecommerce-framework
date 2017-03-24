@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Sdl.ECommerce.Dxa
 {
-    public class DXALinkResolver : IECommerceLinkResolver
+    public class DxaLinkResolver : IECommerceLinkResolver
     {
         public string GetAbsoluteFacetLink(IFacet facet, string navigationBasePath)
         {

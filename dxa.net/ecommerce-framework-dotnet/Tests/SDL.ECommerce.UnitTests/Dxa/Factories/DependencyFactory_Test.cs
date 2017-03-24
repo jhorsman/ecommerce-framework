@@ -54,7 +54,7 @@
             [Fact]
             public void ThenADefaultDepedencyShouldBeResolved()
             {
-                Assert.IsType<DXALinkResolver>(_result);
+                Assert.IsType<DxaLinkResolver>(_result);
             }
 
             public void Dispose()
